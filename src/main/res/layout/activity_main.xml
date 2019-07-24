@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:id="@+id/dl"
+        android:layout_height="match_parent">
+
+    <FrameLayout
+            android:id="@+id/fl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <RelativeLayout
+            android:background="#fff"
+            android:layout_gravity="start"
+            android:id="@+id/navigation"
+            android:layout_width="300dp"
+            android:layout_height="match_parent">
+
+        <include
+                android:id="@+id/head"
+                layout="@layout/navigation_header"/>
+
+        <LinearLayout
+                android:layout_below="@+id/head"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:id="@+id/menu_home"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+            <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/selector_bottom_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:textColor="@drawable/selector_text"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="35dp"
+                    android:text="@string/main_tab_inOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_below="@+id/menu_home"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:id="@+id/menu_history"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+            <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/selector_bottom_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:textColor="@drawable/selector_text"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="35dp"
+                    android:text="@string/bind_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_below="@+id/menu_history"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:id="@+id/menu_my"
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+
+            <!--<ImageView-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:src="@drawable/tapbar_my_btn_normal"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+            <TextView
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/main_tab_my"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <include
+                android:layout_marginBottom="35dp"
+                android:layout_below="@+id/menu_my"
+                layout="@layout/sub_item"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+
+        <LinearLayout
+                android:id="@+id/ll_exit"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+
+            <TextView
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:textColor="#0874af"
+                    android:gravity="center"
+                    android:text="@string/my_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

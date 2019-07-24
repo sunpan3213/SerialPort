@@ -1,0 +1,158 @@
+<resources>
+    <string name="server_error">服务器错误</string>
+    <string name="request_fail">请求失败</string>
+
+    <string name="app_name">IDLinker</string>
+    <string name="login_title">登录</string>
+    <string name="login_id">企业ID</string>
+    <string name="login_username">用户名</string>
+    <string name="login_password">密码</string>
+    <string name="login_tip">如忘记密码，请与管理员联系找回密码</string>
+    <string name="login_commit">登录</string>
+    <string name="login_set">设置域名/IP</string>
+    <string name="login_set_hint">域名/IP</string>
+    <string name="login_set_commit">提交</string>
+    <string name="login_set_success">提交成功</string>
+
+    <string name="main_tab_bind">绑定</string>
+    <string name="main_tab_unbind">解绑</string>
+    <string name="main_tab_inOut">出入库</string>
+    <string name="main_tab_update">更新</string>
+    <string name="main_tab_my">我的</string>
+
+    <string name="bind_clear">清空列表</string>
+    <string name="bind_history">更新查询</string>
+    <string name="bind_id">标签ID：</string>
+    <string name="bind_code">条码/货号：</string>
+    <string name="bind_addToList">加入\n\n列表</string>
+    <string name="bind_list_id">标签编码：</string>
+    <string name="bind_list_name">商品名称：</string>
+    <string name="bind_list_code">条码/货号：</string>
+    <string name="bind_commit">确认绑定</string>
+    <string name="bind_station">基站</string>
+    <string name="bind_model">模板</string>
+    <string name="bind_id_empty">标签ID不能为空</string>
+    <string name="bind_code_empty">条码/货号不能为空</string>
+    <string name="bind_station_selection">基站选择</string>
+    <string name="bind_model_selection">模板选择</string>
+    <string name="bind_station_empty">请选择基站</string>
+    <string name="bind_model_empty">请选择模板</string>
+    <string name="bind_list_empty">请添加</string>
+    <string name="bind_max">已达到添加上限</string>
+    <string name="bind_success">绑定成功</string>
+    <string name="bind_update">立即更新？</string>
+    <string name="bind_update_yes">是</string>
+    <string name="bind_update_no">否</string>
+    <string name="bind_update_success0">更新成功</string>
+    <string name="bind_update_success">数据已提交，请等待更新</string>
+
+    <string name="unbind_clear">清空</string>
+    <string name="unbind_hint">在此输入</string>
+    <string name="unbind_exception">异常</string>
+    <string name="unbind_commit">确定解绑</string>
+    <string name="unbind_list_empty">请添加</string>
+    <string name="unbind_max">已达到添加上限</string>
+    <string name="unbind_success">解绑成功</string>
+
+    <string name="inout_out">出库</string>
+    <string name="inout_in">入库</string>
+    <string name="inout_list_empty">请添加</string>
+    <string name="out_success">出库成功</string>
+    <string name="in_success">入库成功</string>
+    <string name="in_tagtype_selection">型号选择</string>
+    <string name="in_tagtype_empty">请选择型号</string>
+
+    <string name="out_clear">清空</string>
+    <string name="out_hint">在此输入</string>
+    <string name="out_commit">确认出库</string>
+    <string name="out_unbind">存在绑定关系的标签将自动解绑，确认出库？</string>
+    <string name="out_unbind_yes">确认</string>
+    <string name="out_unbind_no">取消</string>
+
+    <string name="in_clear">清空</string>
+    <string name="in_hint">在此输入</string>
+    <string name="in_commit">确认入库</string>
+    <string name="in_tag_type">型号</string>
+    <string name="in_tag_type_select">请选择型号</string>
+
+    <string name="update_hint">在此输入</string>
+    <string name="update_commit">上传已操作数据</string>
+    <string name="update_product_name">商品名</string>
+    <string name="update_tag_id">标签ID</string>
+    <string name="update_success">更新成功</string>
+    <string name="update_exception">异常</string>
+    <string name="update_binded_id">已绑定标签ID</string>
+    <string name="update_info">商品详情</string>
+    <string name="update_bluetooth_state">已选蓝牙标签状态</string>
+    <string name="update_bluetooth_connected">已连接</string>
+    <string name="update_bluetooth_unconnected">未连接</string>
+    <string name="update_power">电量</string>
+    <string name="update_status">更新进度</string>
+    <string name="update_ignore">忽略</string>
+    <string name="update_work">更新</string>
+
+    <string name="my_query">查询</string>
+    <string name="my_setip">设置域名/IP</string>
+    <string name="my_repwd">修改密码</string>
+    <string name="my_language">应用语言</string>
+    <string name="my_type">模式切换</string>
+    <string name="my_shepin">射频标签</string>
+    <string name="my_blue">蓝牙标签</string>
+    <string name="my_wifi">查看IP</string>
+    <string name="my_logout">退出登录</string>
+
+    <string name="repwd_pwd">原密码</string>
+    <string name="repwd_newpwd">新密码</string>
+    <string name="repwd_confirm">重复新密码</string>
+    <string name="repwd_commit">确认修改</string>
+
+    <string name="exist">请勿重复添加</string>
+
+    <string name="history_station">基站编号</string>
+    <string name="history_tagid">标签ID</string>
+    <string name="history_items">商品信息</string>
+    <string name="history_status">更新状态</string>
+    <string name="history_failed">失败</string>
+    <string name="history_successful">成功</string>
+    <string name="history_transmitting">刷新中</string>
+
+    <!--补充-->
+    <string name="my_language_selected">简体中文</string>
+    <string name="delete">确认删除？</string>
+    <string name="confirm_blank">确认清空?</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+    <string name="result_login_1">参数异常</string>
+    <string name="result_login0">账号或密码错误</string>
+    <string name="result_login2">登录失败</string>
+    <string name="result_autologin_problem">自动登录遇到了问题</string>
+    <string name="result_autologin_retry">重试</string>
+    <string name="result_autologin_manual">手动登录</string>
+
+    <string name="repwd_success">修改成功</string>
+
+    <string name="server_exception">服务异常</string>
+    <string name="parameter_exception">参数异常</string>
+
+    <string name="bind_fail">绑定失败</string>
+    <string name="bind_no_in">未入库的标签，请确认标签ID是否正确</string>
+    <string name="bind_exist">已绑定商品信息的标签，请解绑后再提交</string>
+
+    <string name="unbind_fail">解绑失败</string>
+    <string name="unbind_no_in">列表中有未入库的标签，请删除后再提交</string>
+    <string name="unbind_no_bind">列表中有未绑定的标签，请删除后再提交</string>
+
+    <string name="in_fail">入库失败</string>
+    <string name="in_exist">请勿重复入库</string>
+
+    <string name="out_fail">出库失败</string>
+    <string name="out_no_in">未入库的标签，请确认后再提交</string>
+
+    <string name="id_exist">该ID已录入</string>
+    <string name="id_max">已达到上限</string>
+
+    <string name="exit_title">确定退出登录？</string>
+
+
+</resources>

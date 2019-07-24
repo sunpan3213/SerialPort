@@ -1,0 +1,156 @@
+<resources>
+    <string name="server_error">Server Error</string>
+    <string name="request_fail">Request Failure</string>
+
+    <string name="app_name">IDLinker</string>
+    <string name="login_title">Login</string>
+    <string name="login_id">Company ID</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_tip">If you forget the password, please contact your company administrator</string>
+    <string name="login_commit">Login</string>
+    <string name="login_set">Set Domain/IP</string>
+    <string name="login_set_hint">Domain/IP</string>
+    <string name="login_set_commit">Submit</string>
+    <string name="login_set_success">Update confirmed</string>
+
+    <string name="main_tab_bind">Link</string>
+    <string name="main_tab_unbind">Dislink</string>
+    <string name="main_tab_inOut">Stock</string>
+    <string name="main_tab_update">Update</string>
+    <string name="main_tab_my">Me</string>
+
+    <string name="bind_clear">Clear the List</string>
+    <string name="bind_history">History</string>
+    <string name="bind_id">Tag ID：</string>
+    <string name="bind_code">EAN/ItemID：</string>
+    <string name="bind_addToList">Add\n\nto</string>
+    <string name="bind_list_id">Tag ID：</string>
+    <string name="bind_list_name">Items：</string>
+    <string name="bind_list_code">EAN/ItemID：</string>
+    <string name="bind_commit">Confirm</string>
+    <string name="bind_station">Station</string>
+    <string name="bind_model">Template</string>
+    <string name="bind_id_empty">Enter tag ID</string>
+    <string name="bind_code_empty">Enter EAN/ItemID</string>
+    <string name="bind_station_selection">Station</string>
+    <string name="bind_model_selection">Template</string>
+    <string name="bind_station_empty">Choose a station</string>
+    <string name="bind_model_empty">Choose a template</string>
+    <string name="bind_list_empty">Add to</string>
+    <string name="bind_max">Exceed maximum</string>
+    <string name="bind_success">Link successful</string>
+    <string name="bind_update">Update Now?</string>
+    <string name="bind_update_yes">Yes</string>
+    <string name="bind_update_no">No</string>
+    <string name="bind_update_success0">Update Successful</string>
+    <string name="bind_update_success">The data has been uploaded, please wait</string>
+
+    <string name="unbind_clear">Blank</string>
+    <string name="unbind_hint">Enter</string>
+    <string name="unbind_exception">Error</string>
+    <string name="unbind_commit">Confirm</string>
+    <string name="unbind_list_empty">Add to</string>
+    <string name="unbind_max">Exceed maximum</string>
+    <string name="unbind_success">Dislink successful</string>
+
+    <string name="inout_out">Move out</string>
+    <string name="inout_in">Register</string>
+    <string name="inout_list_empty">Add to</string>
+    <string name="out_success">Move out successful</string>
+    <string name="in_success">Register successful</string>
+    <string name="in_tagtype_selection">Select tag model</string>
+    <string name="in_tagtype_empty">Choose tag model</string>
+
+    <string name="out_clear">Blank</string>
+    <string name="out_hint">Enter</string>
+    <string name="out_commit">Confirm</string>
+    <string name="out_unbind">All Linked Tags will be Dislinked，Confirm Move Out？</string>
+    <string name="out_unbind_yes">Confirm</string>
+    <string name="out_unbind_no">Cancel</string>
+
+    <string name="in_clear">Blank</string>
+    <string name="in_hint">Enter</string>
+    <string name="in_commit">Confirm</string>
+    <string name="in_tag_type">Tag model</string>
+    <string name="in_tag_type_select">Choose tag model</string>
+
+    <string name="update_hint">Enter</string>
+    <string name="update_commit">Data upload</string>
+    <string name="update_product_name">Item</string>
+    <string name="update_tag_id">Tag ID</string>
+    <string name="update_success">Update successful</string>
+    <string name="update_exception">Error</string>
+    <string name="update_binded_id">Tag ID</string>
+    <string name="update_info">Details</string>
+    <string name="update_bluetooth_state">Bluetooth tag status</string>
+    <string name="update_bluetooth_connected">Connected</string>
+    <string name="update_bluetooth_unconnected">Disconnected</string>
+    <string name="update_power">Battery status</string>
+    <string name="update_status">Progress</string>
+    <string name="update_ignore">Ignore</string>
+    <string name="update_work">Update</string>
+
+    <string name="my_query">Search</string>
+    <string name="my_setip">Set Domain/IP</string>
+    <string name="my_repwd">Password</string>
+    <string name="my_language">Language</string>
+    <string name="my_type">Service mode</string>
+    <string name="my_shepin">RF</string>
+    <string name="my_blue">Bluetooth</string>
+    <string name="my_wifi">Static IP</string>
+    <string name="my_logout">Log out</string>
+
+    <string name="repwd_pwd">Enter original password</string>
+    <string name="repwd_newpwd">Enter new password</string>
+    <string name="repwd_confirm">Enter new password again</string>
+    <string name="repwd_commit">Confirm</string>
+
+    <string name="exist">The record already exists</string>
+
+    <string name="history_station">Station</string>
+    <string name="history_tagid">TagID</string>
+    <string name="history_items">Items</string>
+    <string name="history_status">Status</string>
+    <string name="history_failed">Failed</string>
+    <string name="history_successful">Successful</string>
+    <string name="history_transmitting">Transmitting</string>
+
+    <!--补充-->
+    <string name="my_language_selected">English</string>
+    <string name="delete">Confirm delete?</string>
+    <string name="confirm_blank">Confirm blank?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="result_login_1">Parameter exception</string>
+    <string name="result_login0">账号或密码错误</string>
+    <string name="result_login2">Login Failed</string>
+    <string name="result_autologin_problem">自动登录遇到了问题</string>
+    <string name="result_autologin_retry">重试</string>
+    <string name="result_autologin_manual">手动登录</string>
+
+    <string name="repwd_success">修改成功</string>
+
+    <string name="server_exception">Service Error</string>
+    <string name="parameter_exception">Parameter exception</string>
+
+    <string name="bind_fail">Link Failed</string>
+    <string name="bind_no_in">There are some no Registered TagID in the list, Please Confirm whether the TagID is correct</string>
+    <string name="bind_exist">There are some TagID is Linked in the list, Please dislink first</string>
+
+    <string name="unbind_fail">Dislink Failed</string>
+    <string name="unbind_no_in">There are some no Registered TagID in the list ,Please delete them before upload</string>
+    <string name="unbind_no_bind">There are some dislinked TagID in the list ,Please delete them before upload</string>
+
+    <string name="in_fail">Register Failed</string>
+    <string name="in_exist">There are some Registered TagID in the list ,Please delete them before upload</string>
+
+    <string name="out_fail">Move out Failed</string>
+    <string name="out_no_in">There are some no Registered TagID in the list ,Please delete them before upload</string>
+
+    <string name="id_exist">The TagID is existed</string>
+    <string name="id_max">The ceiling has been reached</string>
+
+    <string name="exit_title">Determine logout? </string>
+</resources>

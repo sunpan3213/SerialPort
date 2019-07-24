@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/loginSet_root_LL"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clickable="true"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+
+        <ImageView
+                android:id="@+id/loginSet_back_Img"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:padding="11dp"
+                android:src="@drawable/nav_back_btn" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/login_set"
+                android:textColor="#1a1a1a"
+                android:textSize="19dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:paddingTop="19dp">
+
+            <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/login_set_hint"
+                    android:textColor="#666666"
+                    android:textSize="14dp" />
+
+            <EditText
+                    android:id="@+id/loginSet_ip_E"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textColor="#1a1a1a"
+                    android:textSize="14dp" />
+
+
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#cccccc" />
+
+        <Button
+                android:id="@+id/loginSet_commit_B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/btn_enabled_0874af"
+                android:text="@string/login_set_commit"
+                android:textColor="#ffffff"
+                android:textSize="14dp" />
+    </LinearLayout>
+</LinearLayout>

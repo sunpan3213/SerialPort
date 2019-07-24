@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+
+        <item
+                android:checked="true"
+                android:id="@+id/main_inOut_LL"
+                android:icon="@drawable/selector_bottom_three"
+                android:title="@string/main_tab_inOut"/>
+
+        <item
+                android:id="@+id/main_bind_LL"
+                android:icon="@drawable/selector_bottom_one"
+                android:title="@string/main_tab_bind"/>
+
+        <item
+                android:id="@+id/main_unbind_LL"
+                android:icon="@drawable/selector_bottom_two"
+                android:title="@string/main_tab_unbind"/>
+
+        <item
+                android:id="@+id/main_my_LL"
+                android:icon="@drawable/tapbar_my_btn_normal"
+                android:title="@string/main_tab_my">
+            <menu>
+                <item
+                        android:id="@+id/navigation_my_setip"
+                        android:checkable="true"
+                        android:icon="@drawable/wode_szip_icon"
+                        android:title="@string/my_setip"/>
+                <item
+                        android:id="@+id/navigation_my_modify"
+                        android:checkable="true"
+                        android:icon="@drawable/wode_xgmm_icon"
+                        android:title="@string/my_repwd"/>
+                <item
+                        android:id="@+id/navigation_my_lan"
+                        android:checkable="true"
+                        android:icon="@drawable/wode_yyyy_icon"
+                        android:title="@string/my_language"/>
+                <item
+                        android:id="@+id/navigation_my_channel"
+                        android:checkable="true"
+                        android:icon="@drawable/wode_msqh_icon"
+                        android:title="@string/my_type"/>
+                <item
+                        android:id="@+id/navigation_my_ip"
+                        android:checkable="true"
+                        android:icon="@drawable/ip"
+                        android:title="@string/my_wifi"/>
+            </menu>
+        </item>
+
+        <!--<item-->
+                <!--android:title="@string/my_logout"-->
+                <!--android:id="@+id/sign_out"/>-->
+    </group>
+</menu>

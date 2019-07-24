@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+    <TextView
+            android:id="@+id/itemHistory_RefreshNo_T"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="显示刷新订单号"
+            android:textColor="#666666"
+            android:textSize="14dp" />
+
+    <ImageView
+            android:id="@+id/itemHistory_IMG"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/wode_arrow_right" />
+
+    <TextView
+            android:id="@+id/itemHistory_CreateOwn_T"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/itemHistory_IMG"
+            android:gravity="center_vertical"
+            android:text="显示操作人"
+            android:textColor="#666666"
+            android:textSize="14dp" />
+</RelativeLayout>
